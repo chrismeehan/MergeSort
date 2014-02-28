@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200AA55018C1346C0076E0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA54F18C1346C0076E0EA /* Foundation.framework */; };
+		200AA55218C1346C0076E0EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA55118C1346C0076E0EA /* CoreGraphics.framework */; };
+		200AA55418C1346C0076E0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA55318C1346C0076E0EA /* UIKit.framework */; };
+		200AA55A18C1346C0076E0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200AA55818C1346C0076E0EA /* InfoPlist.strings */; };
+		200AA55C18C1346C0076E0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200AA55B18C1346C0076E0EA /* main.m */; };
+		200AA56018C1346C0076E0EA /* CAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200AA55F18C1346C0076E0EA /* CAMAppDelegate.m */; };
+		200AA56318C1346C0076E0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200AA56118C1346C0076E0EA /* Main.storyboard */; };
+		200AA56618C1346C0076E0EA /* CAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200AA56518C1346C0076E0EA /* CAMViewController.m */; };
+		200AA56818C1346C0076E0EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200AA56718C1346C0076E0EA /* Images.xcassets */; };
+		200AA56F18C1346D0076E0EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA56E18C1346C0076E0EA /* XCTest.framework */; };
+		200AA57018C1346D0076E0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA54F18C1346C0076E0EA /* Foundation.framework */; };
+		200AA57118C1346D0076E0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200AA55318C1346C0076E0EA /* UIKit.framework */; };
+		200AA57918C1346D0076E0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200AA57718C1346D0076E0EA /* InfoPlist.strings */; };
+		200AA57B18C1346D0076E0EA /* MergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200AA57A18C1346D0076E0EA /* MergeSortTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200AA57218C1346D0076E0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200AA54418C1346C0076E0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200AA54B18C1346C0076E0EA;
+			remoteInfo = MergeSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200AA54C18C1346C0076E0EA /* MergeSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200AA54F18C1346C0076E0EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		200AA55118C1346C0076E0EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		200AA55318C1346C0076E0EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		200AA55718C1346C0076E0EA /* MergeSort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeSort-Info.plist"; sourceTree = "<group>"; };
+		200AA55918C1346C0076E0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		200AA55B18C1346C0076E0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200AA55D18C1346C0076E0EA /* MergeSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergeSort-Prefix.pch"; sourceTree = "<group>"; };
+		200AA55E18C1346C0076E0EA /* CAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMAppDelegate.h; sourceTree = "<group>"; };
+		200AA55F18C1346C0076E0EA /* CAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMAppDelegate.m; sourceTree = "<group>"; };
+		200AA56218C1346C0076E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200AA56418C1346C0076E0EA /* CAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMViewController.h; sourceTree = "<group>"; };
+		200AA56518C1346C0076E0EA /* CAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMViewController.m; sourceTree = "<group>"; };
+		200AA56718C1346C0076E0EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		200AA56D18C1346C0076E0EA /* MergeSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200AA56E18C1346C0076E0EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		200AA57618C1346D0076E0EA /* MergeSortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeSortTests-Info.plist"; sourceTree = "<group>"; };
+		200AA57818C1346D0076E0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		200AA57A18C1346D0076E0EA /* MergeSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200AA54918C1346C0076E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA55218C1346C0076E0EA /* CoreGraphics.framework in Frameworks */,
+				200AA55418C1346C0076E0EA /* UIKit.framework in Frameworks */,
+				200AA55018C1346C0076E0EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200AA56A18C1346C0076E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA56F18C1346D0076E0EA /* XCTest.framework in Frameworks */,
+				200AA57118C1346D0076E0EA /* UIKit.framework in Frameworks */,
+				200AA57018C1346D0076E0EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200AA54318C1346C0076E0EA = {
+			isa = PBXGroup;
+			children = (
+				200AA55518C1346C0076E0EA /* MergeSort */,
+				200AA57418C1346D0076E0EA /* MergeSortTests */,
+				200AA54E18C1346C0076E0EA /* Frameworks */,
+				200AA54D18C1346C0076E0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200AA54D18C1346C0076E0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200AA54C18C1346C0076E0EA /* MergeSort.app */,
+				200AA56D18C1346C0076E0EA /* MergeSortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200AA54E18C1346C0076E0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200AA54F18C1346C0076E0EA /* Foundation.framework */,
+				200AA55118C1346C0076E0EA /* CoreGraphics.framework */,
+				200AA55318C1346C0076E0EA /* UIKit.framework */,
+				200AA56E18C1346C0076E0EA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		200AA55518C1346C0076E0EA /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				200AA55E18C1346C0076E0EA /* CAMAppDelegate.h */,
+				200AA55F18C1346C0076E0EA /* CAMAppDelegate.m */,
+				200AA56118C1346C0076E0EA /* Main.storyboard */,
+				200AA56418C1346C0076E0EA /* CAMViewController.h */,
+				200AA56518C1346C0076E0EA /* CAMViewController.m */,
+				200AA56718C1346C0076E0EA /* Images.xcassets */,
+				200AA55618C1346C0076E0EA /* Supporting Files */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		200AA55618C1346C0076E0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200AA55718C1346C0076E0EA /* MergeSort-Info.plist */,
+				200AA55818C1346C0076E0EA /* InfoPlist.strings */,
+				200AA55B18C1346C0076E0EA /* main.m */,
+				200AA55D18C1346C0076E0EA /* MergeSort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		200AA57418C1346D0076E0EA /* MergeSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				200AA57A18C1346D0076E0EA /* MergeSortTests.m */,
+				200AA57518C1346D0076E0EA /* Supporting Files */,
+			);
+			path = MergeSortTests;
+			sourceTree = "<group>";
+		};
+		200AA57518C1346D0076E0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200AA57618C1346D0076E0EA /* MergeSortTests-Info.plist */,
+				200AA57718C1346D0076E0EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200AA54B18C1346C0076E0EA /* MergeSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200AA57E18C1346D0076E0EA /* Build configuration list for PBXNativeTarget "MergeSort" */;
+			buildPhases = (
+				200AA54818C1346C0076E0EA /* Sources */,
+				200AA54918C1346C0076E0EA /* Frameworks */,
+				200AA54A18C1346C0076E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeSort;
+			productName = MergeSort;
+			productReference = 200AA54C18C1346C0076E0EA /* MergeSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		200AA56C18C1346C0076E0EA /* MergeSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200AA58118C1346D0076E0EA /* Build configuration list for PBXNativeTarget "MergeSortTests" */;
+			buildPhases = (
+				200AA56918C1346C0076E0EA /* Sources */,
+				200AA56A18C1346C0076E0EA /* Frameworks */,
+				200AA56B18C1346C0076E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200AA57318C1346D0076E0EA /* PBXTargetDependency */,
+			);
+			name = MergeSortTests;
+			productName = MergeSortTests;
+			productReference = 200AA56D18C1346C0076E0EA /* MergeSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200AA54418C1346C0076E0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chris Meehan";
+				TargetAttributes = {
+					200AA56C18C1346C0076E0EA = {
+						TestTargetID = 200AA54B18C1346C0076E0EA;
+					};
+				};
+			};
+			buildConfigurationList = 200AA54718C1346C0076E0EA /* Build configuration list for PBXProject "MergeSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200AA54318C1346C0076E0EA;
+			productRefGroup = 200AA54D18C1346C0076E0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200AA54B18C1346C0076E0EA /* MergeSort */,
+				200AA56C18C1346C0076E0EA /* MergeSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200AA54A18C1346C0076E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA56818C1346C0076E0EA /* Images.xcassets in Resources */,
+				200AA55A18C1346C0076E0EA /* InfoPlist.strings in Resources */,
+				200AA56318C1346C0076E0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200AA56B18C1346C0076E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA57918C1346D0076E0EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200AA54818C1346C0076E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA56618C1346C0076E0EA /* CAMViewController.m in Sources */,
+				200AA56018C1346C0076E0EA /* CAMAppDelegate.m in Sources */,
+				200AA55C18C1346C0076E0EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200AA56918C1346C0076E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200AA57B18C1346D0076E0EA /* MergeSortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		200AA57318C1346D0076E0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200AA54B18C1346C0076E0EA /* MergeSort */;
+			targetProxy = 200AA57218C1346D0076E0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		200AA55818C1346C0076E0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200AA55918C1346C0076E0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		200AA56118C1346C0076E0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200AA56218C1346C0076E0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		200AA57718C1346D0076E0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200AA57818C1346D0076E0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200AA57C18C1346D0076E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		200AA57D18C1346D0076E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200AA57F18C1346D0076E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeSort/MergeSort-Prefix.pch";
+				INFOPLIST_FILE = "MergeSort/MergeSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		200AA58018C1346D0076E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeSort/MergeSort-Prefix.pch";
+				INFOPLIST_FILE = "MergeSort/MergeSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		200AA58218C1346D0076E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeSort.app/MergeSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeSort/MergeSort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MergeSortTests/MergeSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		200AA58318C1346D0076E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeSort.app/MergeSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeSort/MergeSort-Prefix.pch";
+				INFOPLIST_FILE = "MergeSortTests/MergeSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200AA54718C1346C0076E0EA /* Build configuration list for PBXProject "MergeSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200AA57C18C1346D0076E0EA /* Debug */,
+				200AA57D18C1346D0076E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200AA57E18C1346D0076E0EA /* Build configuration list for PBXNativeTarget "MergeSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200AA57F18C1346D0076E0EA /* Debug */,
+				200AA58018C1346D0076E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		200AA58118C1346D0076E0EA /* Build configuration list for PBXNativeTarget "MergeSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200AA58218C1346D0076E0EA /* Debug */,
+				200AA58318C1346D0076E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200AA54418C1346C0076E0EA /* Project object */;
+}
